@@ -1,0 +1,10 @@
+
+{
+  "ImageId": "ami-195abd5d",
+  "InstanceType": "g2.2xlarge",
+  "KeyName": "awskey",
+  "SecurityGroups": ["devenv-sg"],
+  "Placement": {
+    "AvailabilityZone": "us-west-1a"
+  }
+}
