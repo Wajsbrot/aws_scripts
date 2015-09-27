@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-aws ec2 create-key-pair --key-name $1 --query 'KeyMaterial' --output text > $1.pem
+aws ec2 create-key-pair --key-name awskey.pem --query 'KeyMaterial' --output text > awskey.pem
+chmod 400 awskey.pem
