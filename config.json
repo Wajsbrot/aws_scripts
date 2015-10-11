@@ -1,6 +1,6 @@
 
 {
-  "ImageId": "ami-195abd5d",
+  "ImageId": "ami-91a648d5",
   "InstanceType": "g2.2xlarge",
   "KeyName": "awskey",
   "SecurityGroups": ["aws-sg"],

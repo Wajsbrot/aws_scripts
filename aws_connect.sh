@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-ssh -i $HOME/Dropbox/scripts/awskey.pem ubuntu@$instance_ip
+ssh -X -i $HOME/Dropbox/scripts/aws/awskey.pem ubuntu@$instance_ip
