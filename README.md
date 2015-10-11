@@ -1,5 +1,5 @@
 # aws_scripts
-With a configured AWS account, here's how to use those scripts.
+With a configured AWS account, here's how to use those scripts. Before starting make sure that you have installed aws command line interface tools (``sudo pip install awscli``)
 
 1. give the execution rights for all scripts: ``chmod +x aws_*.sh``
 1. (only the first time) create your security group with aws_security_group.sh
